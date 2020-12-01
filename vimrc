@@ -18,6 +18,9 @@ Plug 'cespare/vim-toml'
 " Autoformatter
 Plug 'Chiel92/vim-autoformat'
 
+" Comment out
+Plug 'tpope/vim-commentary'
+
 call plug#end()
 
 " Syntastic recommended settings
@@ -28,9 +31,26 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+" Syntastic default mode
+let s:togglelinting_enabled = 0 
+function! ToggleLinting()
+    if s:togglelinting_enabled
+        call SyntasticToggleMode()
+    else
+        call SyntasticToggleMode()
+        call SyntasticCheck()
+    endif
+    let s:togglelinting_enabled = !s:togglelinting_enabled
+endfunction
+if !s:togglelinting_enabled
+    let g:syntastic_mode_map = { 'mode': 'passive' }
+endif
 
 " Syntastic clippy
 let g:syntastic_rust_checkers = ['clippy']
+
+" Syntastic custom cpp
+let g:syntastic_cpp_config_file = '.syntastic_cpp'
 
 " Line numbers
 set nu
@@ -47,3 +67,8 @@ nnoremap <C-p> :FZF<CR>
 nnoremap <C-n> :set nu!<CR>
 " Autoformat
 nnoremap ,f :Autoformat<CR>
+" Toggle lint
+nnoremap ,l :call ToggleLinting()<CR>
+" Toggle commentary
+nnoremap <C-_> :Commentary<CR>
+vnoremap <C-_> :Commentary<CR>

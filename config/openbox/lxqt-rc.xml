@@ -178,6 +178,12 @@ Copy the file to $HOME/.config/openbox/lxqt-rc.xml instead. -->
   </dock>
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
+    <keybind key="C-A-c">
+        <action name="MoveResizeTo">
+            <x>center</x>
+            <height>100%</height>
+        </action>
+    </keybind>
     <keybind key="C-A-Return">
       <action name="ToggleMaximize"/>
     </keybind>

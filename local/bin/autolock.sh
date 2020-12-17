@@ -9,7 +9,7 @@ xidlehook \
   --not-when-fullscreen \
   `# Don't lock when there's audio playing` \
   --not-when-audio \
-  `# lock after 5 minutes` \
-  --timer 300 \
+  `# lock after 1 minute` \
+  --timer 60 \
     'lock-screen.sh' \
     ''

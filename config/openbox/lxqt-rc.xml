@@ -42,8 +42,8 @@ Copy the file to $HOME/.config/openbox/lxqt-rc.xml instead. -->
             'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Adwaita-Dark-openbox</name>
-    <titleLayout>NLIMC</titleLayout>
+    <name>Syscrash</name>
+    <titleLayout>NL</titleLayout>
     <!--
                 available characters are NDSLIMC, each can occur at most once.
                 N: window icon

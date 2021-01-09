@@ -1,0 +1,16 @@
+~/.config/redshift/redshift.conf
+
+[redshift]
+...
+; Set the location-provider: 'geoclue2', 'manual'
+; type 'redshift -l list' to see possible values.
+; The location provider settings are in a different section.
+location-provider=manual
+
+...
+
+; Keep in mind that longitudes west of Greenwich (e.g. the Americas)
+; are negative numbers.
+[manual]
+lat=-33.450787
+lon=-70.629850

@@ -1,0 +1,68 @@
+# SUAVE DARK - OPENBOX THEME BY NotEnoughDanger
+#openbox themerc edited with obtheme
+border.color: #404040
+border.width: 2
+menu.border.color: #242424
+menu.items.active.bg: Gradient Vertical Flat
+menu.items.active.bg.color: #FFFFFF
+menu.items.active.bg.colorTo: #CCCCCC
+menu.items.active.text.color: #000000
+menu.items.bg: Solid Flat
+menu.items.bg.color: #242424
+menu.items.text.color: #FFFFFF
+menu.overlap: 0
+menu.separator.color: #808080
+menu.title.bg: Gradient Vertical Flat
+menu.title.bg.color: #404040
+menu.title.bg.colorTo: #242424
+menu.title.text.color: #ffffff
+menu.title.text.justify: Center
+padding.height: 2
+padding.width: 2
+window.*.button.disabled.bg: Gradient Vertical Flat Border
+window.*.button.disabled.bg.color: #242424
+window.*.button.disabled.bg.colorTo: #1F1F1F
+window.*.button.disabled.bg.border.color: #404040
+window.*.button.disabled.image.color: #FFFFFF
+window.*.button.hover.bg: Gradient Vertical Flat Border
+window.*.button.hover.bg.color: #606060
+window.*.button.hover.bg.colorTo: #404040
+window.*.button.hover.bg.border.color: #808080
+window.*.button.pressed.bg: Gradient Vertical Flat Border
+window.*.button.pressed.bg.color: #242424
+window.*.button.pressed.bg.colorTo: #1F1F1F
+window.*.button.pressed.bg.border.color: #404040
+window.*.button.toggled.bg: Gradient Vertical Flat Border
+window.*.button.toggled.bg.color: #242424
+window.*.button.toggled.bg.colorTo: #1f1f1f
+window.*.button.toggled.bg.border.color: #404040
+window.*.button.toggled.image.color: #dcd4c9
+window.*.button.toggled.pressed.bg: Flat Gradient Vertical Border
+window.*.button.toggled.pressed.bg.color: #242424
+window.*.button.toggled.pressed.bg.colorTo: #1f1f1f
+window.*.button.toggled.pressed.bg.border.color: #808080
+window.*.button.toggled.pressed.image.color: #606060
+window.*.button.toggled.hover.bg: Flat Gradient Vertical Border
+window.*.button.toggled.hover.bg.color: #242424
+window.*.button.toggled.hover.bg.colorTo: #1f1f1f
+window.*.button.toggled.hover.bg.border.color: #808080
+window.*.button.toggled.hover.image.color: #ffffff
+window.*.button.unpressed.bg: Gradient Vertical Flat Border
+window.*.button.unpressed.bg.color: #404040
+window.*.button.unpressed.bg.colorTo: #242424
+window.*.button.unpressed.bg.border.color: #404040
+window.*.button.unpressed.image.color: #ffffff
+window.*.grip.bg: Solid Flat
+window.*.grip.bg.color: #242424
+window.*.handle.bg: Solid Flat
+window.*.handle.bg.color: #242424
+window.*.label.bg: Parentrelative
+window.*.label.text.color: #ffffff
+window.*.title.bg: Gradient Vertical Flat
+window.*.title.bg.color: #404040
+window.*.title.bg.colorTo: #1f1f1f
+window.*.title.separator.color: #1F1F1F
+window.client.padding.width: 0
+window.handle.width: 4
+
+window.label.text.justify: Center

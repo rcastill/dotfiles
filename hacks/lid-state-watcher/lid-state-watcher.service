@@ -1,0 +1,8 @@
+[Unit]
+Description=Checks /proc/acpi/button/lid/LID0/state every 2s (hack)
+
+[Service]
+ExecStart=/usr/local/bin/lid-state-watcher.sh
+
+[Install]
+WantedBy=multi-user.target
